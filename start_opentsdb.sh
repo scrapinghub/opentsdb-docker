@@ -4,7 +4,7 @@ sleep 30
 
 if [ ! -e /opt/opentsdb_tables_created.txt ]; then
 	echo "creating tsdb tables"
-	bash /opt/sei-bin/create_tsdb_tables.sh
+	bash /opt/start/create_tsdb_tables.sh
 	echo "created tsdb tables"
 fi
 
